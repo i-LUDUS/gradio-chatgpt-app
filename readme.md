@@ -1,30 +1,30 @@
-## Description
+## Beschrijving
 
-This app is a Chatbot UI that uses the OpenAI ChatGPT API to provide responses to text inputs.
-It is launched using the Gradio library, which allows the user to enter text queries from a nice interface and receive responses from the chatbot.
+Deze app is een Chatbot-gebruikersinterface die de OpenAI ChatGPT-API gebruikt om reacties op tekstinvoer te geven.
+Het wordt gelanceerd met behulp van de Gradio-bibliotheek, waarmee de gebruiker tekstvragen kan invoeren vanuit een mooie interface en antwoorden van de chatbot kan ontvangen.
 
 ![image](./chat-screenshot.png)
 
-## Install Dependencies
+## Installatie van de afhankelijkheden
 
-Run:
+Start installlatie van de afhankelijkheden via het commando:
 ```bash
 pip install -r requirements.txt
 ```
 
-## API Key
+## API Sleutel
 
-The app will need an OpenAI API Key to work.
-To specify it, create a .env file and write your OpenAI API key
+De app heeft een OpenAI API-sleutel nodig om te werken.
+Om het te specificeren, maakt u een .env-bestand en schrijft u uw OpenAI API-sleutel
 ```bash
 OPENAI_API_KEY=XXXXXXXXX
 ```
 
-## Start App
+## Start de App
 
-Just run:
+Start de app via het commando:
 ```bash
 gradio mywebgpt.py
 ```
 
-Then, you can see your app at the url `http://127.0.0.1:8080/`.
+Vervolgens kunt u uw app zien op de url `http://127.0.0.1:8080/`.
